@@ -234,3 +234,29 @@ footer{
     border-radius: 50%;
     width: 185px;
 }
+
+@media (max-width: 1024px){
+    .row{
+        height: 30vh;
+        display: inline-block;
+    }
+
+    .row:nth-child(4){
+        margin-top: 12.5vh;
+    }
+
+    main{
+        height: 150vh;
+    }
+
+    .card{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+    .card:hover{
+        height: 25vh;
+        width: 90%;
+    }
+}
