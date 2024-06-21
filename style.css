@@ -187,6 +187,48 @@ footer{
     justify-content: center;
 }
 
+@media (max-width: 480px){
+    .navbar{
+        height: 5vh;
+        font-size: 6px;
+        width: 95%;
+    }
+
+    .row{
+        height: 30vh;
+        display: inline-block;
+    }
+
+    .row:nth-child(4){
+        margin-top: 18vh;
+    }
+
+    main{
+        height: 150vh;
+    }
+
+    .card{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+    .card:hover{
+        height: 25vh;
+        width: 90%;
+    }
+
+    .contact input{
+        height: 30px;
+        width: 100%;
+    }
+    
+    .contact .desc{
+        height: 60vh;
+        color: #fff;
+    }
+}
+
 .img img{
     height: 185px;
     border-radius: 50%;
